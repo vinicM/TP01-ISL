@@ -2,11 +2,11 @@
 
 module testbench ();
 
-reg C1 = 1;
+reg C1 = 0;
 reg C2 = 0;
-reg C3 = 1;
+reg C3 = 0;
 reg C4 = 1;
-reg C5 = 1;
+reg C5 = 0;
 
 wire A;
 wire B;
