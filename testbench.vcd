@@ -1,5 +1,5 @@
 $date
-	Wed Mar 24 16:59:53 2021
+	Wed Mar 24 18:20:22 2021
 $end
 $version
 	Icarus Verilog
@@ -32,16 +32,16 @@ $var wire 1 ( c1 $end
 $var wire 1 ) c2 $end
 $var wire 1 * c3 $end
 $var wire 1 + c4 $end
-$var wire 1 , c6 $end
+$var wire 1 , c5 $end
 $upscope $end
 $upscope $end
 $enddefinitions $end
 #0
 $dumpvars
-0,
-1+
+1,
+0+
 0*
-0)
+1)
 0(
 0'
 1&
