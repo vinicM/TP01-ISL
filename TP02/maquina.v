@@ -1,0 +1,8 @@
+module maquina (
+    
+    input 
+
+
+);
+    
+endmodule
