@@ -12,8 +12,10 @@ module maquina (
     
     input clk,
     input reset,
-    output s1,
-    output s2,
+    output saldoInsuf,
+    output trocoRec,
+    output doceComp,
+    output doceEtroco;
 
 
 );
