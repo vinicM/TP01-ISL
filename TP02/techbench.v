@@ -15,17 +15,13 @@ endmodule
 
 module maquina();
 
-    reg saldoInsuf,
-    reg trocoRec,
-    reg doceComp,
-    reg doceEtroco;
-    reg state;
+    reg s1,
+    reg s2;
 
-    parameter saldoInsuf = 00, trocoRec = 01, doceComp = 10, doceEtroco = 11 ;
+    parameter s2 = 1'd0, s1 = 1'd1 ;
 
     always @(state) begin
-        begin
-            
-        end
+        case(state)
+            if( s1 == 0 &)
         
     end
