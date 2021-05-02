@@ -16,11 +16,20 @@ input clk, in;
 output out;
 
 reg out;
-reg [2:0] state;
+reg [3:0] state;
 
 
 //parameter saldoInsuf = 2'b00, trocoRec = 2'b01, doceComp = 2'b10, doceEtroco = 2'b11; 
-parameter 0c = 4'b0000, 5c = 4'b1000, 10c = 4'b0100, 15c = 4'b0010, 20c = 4'b1010 25c = 4'b0001, 30c = 4'b1001, 35c = 4'b0101, 45c = 4'b1011, 50c = 4'b0111; // os estados
+parameter    0c = 4'b0000,
+             5c = 4'b1000,
+             10c = 4'b0100, 
+             15c = 4'b0010,
+             20c = 4'b1010, 
+             25c = 4'b0001, 
+             30c = 4'b1001, 
+             35c = 4'b0101, 
+             45c = 4'b1011, 
+             50c = 4'b0111; // os estados
 
 
         
