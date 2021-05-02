@@ -22,6 +22,10 @@ module maquina (
     output s2;
 
 
+    always @(*) begin
+        
+    end
+
 
 );
     
